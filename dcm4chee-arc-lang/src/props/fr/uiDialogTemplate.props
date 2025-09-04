@@ -1,0 +1,5 @@
+uiDialogTemplate:UI Plantilla de Diálogo|Definir Crear Plantilla de Diálogo.
+uiDialogTemplate.dcmuiTemplateName:Nombre|Nombre de la plantilla de diálogo.
+uiDialogTemplate.dcmTag:Atributo Etiqueta|Etiqueta IDCOM como cadena hexadecimal que se incluirá en esta plantilla de diálogo.
+uiDialogTemplate.dicomDescription:Descripción|Descripción de la plantilla de diálogo.
+uiDialogTemplate.dcmuiDialog:Función de diálogo|Especifica la función en la que se aplicará esta plantilla de diálogo.

@@ -1,0 +1,8 @@
+uiCompareSide:Comparar Lado|Comparar Lado.
+uiCompareSide.dcmuiCompareSideName:Nombre|Nombre del lado de comparación.
+uiCompareSide.dcmuiCompareSideDescription:Descripción|Una breve descripción sobre este Grupo.
+uiCompareSide.dcmuiCompareSideOrder:Orden|Orden del lado de comparación.
+uiCompareSide.dcmuiCompareSideCluster:Grupo|Seleccionar un Grupo.
+uiCompareSide.dcmuiCompareSideElasticsearch:Elasticsearch|Seleccionar una URL de Elasticsearch.
+uiCompareSide.dcmuiCompareSideQueueName:Cola|Seleccionar el nombre de la cola que se utilizará para el lado de comparación.
+uiCompareSide.dcmuiCompareSideInstalled:Instalado|Si es verdadero, este lado de comparación está activo en el panel de control.

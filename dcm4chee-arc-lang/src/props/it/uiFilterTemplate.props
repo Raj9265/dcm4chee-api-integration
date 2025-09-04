@@ -1,0 +1,8 @@
+uiFilterTemplate:Modello di Filtro UI|Modello di filtro Definito
+uiFilterTemplate.dcmuiFilterTemplateGroupName:Nome|Nome del modello
+uiFilterTemplate.dcmuiFilterTemplateID:ID|ID del filtro a cui può essere applicato questo modello
+uiFilterTemplate.dcmuiFilterTemplateDescription:Descrizione|Descrizione del modello di filtro
+uiFilterTemplate.dcmuiFilterTemplateUsername:Nome utente|Nome utente che può utilizzare questo modello
+uiFilterTemplate.dcmuiFilterTemplateRole:Ruolo|Ruolo del nome utente che può utilizzare questo modello
+uiFilterTemplate.dcmuiFilterTemplateFilters:Filtri|Filtri predefiniti in questo modello, filtro coppie chiave = valore (esempio LocalAET = DCM4CHEE). Per il filtro data è possibile utilizzare le parole chiave predefinite (today, yesterday, this_week, this_month, last_week, last_month, this_quarter, last_quarter, this_year, last_year) in modo da poter generare i valori dinamici dei filtri.
+uiFilterTemplate.dcmuiFilterTemplateDefault:Default|Usa questo modello come predefinito

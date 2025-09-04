@@ -1,0 +1,30 @@
+dcmNetworkConnection:Extensión de Conexión de Red|dcm4che atributos de Conexión de Red del propietario.
+dcmNetworkConnection.dcmProtocol:Protocolo|Protocolo de Conexión de Red.
+dcmNetworkConnection.dcmHTTPProxy:HTTP Proxy|HTTP Proxy: [user:password@]host:port
+dcmNetworkConnection.dcmTLSNeedClientAuth:Necesita autenticación de cliente TLS|Indica si se requiere autenticación de cliente TLS.
+dcmNetworkConnection.dcmTLSProtocol:Protocolo TLS|Protocolos TLS soportados.
+dcmNetworkConnection.dcmTLSEndpointIdentificationAlgorithm:Algoritmo de Identificación de Extremo TLS|Indica los procedimientos de identificación o verificación de extremo durante el intercambio TLS.
+dcmNetworkConnection.dcmTCPBacklog:Cola de espera TCP|Longitud máxima de la cola para conexiones TCP entrantes.
+dcmNetworkConnection.dcmTCPConnectTimeout:Tiempo de espera de conexión TCP|Tiempo de espera de conexión TCP en ms; no hay tiempo de espera si no existe.
+dcmNetworkConnection.dcmTCPCloseDelay:Retraso de cierre TCP|Retraso de cierre del conector TCP en ms tras el envío de la PDU A-ASSOCIATE-RJ, A-RELEASE-RP o A-ABORT.
+dcmNetworkConnection.dcmTCPSendBufferSize:Tamaño del búfer de envío TCP|Tamaño del búfer de envío TCP; utilice los valores predeterminados del sistema si no existen.
+dcmNetworkConnection.dcmTCPReceiveBufferSize:Tamaño búfer recepción TCP|Tamaño del búfer de recepción TCP; utilizar los valores por defecto del sistema si no existen.
+dcmNetworkConnection.dcmTCPNoDelay:Sin Retraso TCP|Activar/desactivar TCP_SINRETRASO (desactivar/activar algoritmo Nagle).
+dcmNetworkConnection.dcmBindAddress:Dirección de enlace|Dirección de enlace del conector de escucha; utilice el nombre de anfitrión de la conexión si no existe.
+dcmNetworkConnection.dcmClientBindAddress:Dirección de enlace del cliente|Dirección de enlace de las conexiones salientes; utilice el nombre de anfitrión de la conexión si no existe.
+dcmNetworkConnection.dcmBlacklistedHostname:Nombre de anfitrión en lista negra|Nombres de anfitrión DNS en lista negra.
+dcmNetworkConnection.dcmSendPDULength:Enviar PDU Longitud|Longitud máxima de las PDU emitidas.
+dcmNetworkConnection.dcmReceivePDULength:Recibir PDU Longitud|Longitud máxima de las PDU recibidas.
+dcmNetworkConnection.dcmMaxOpsPerformed:Operaciones Máximas Invocadas|Operaciones máximas realizadas|Número máximo de operaciones a realizar de forma asíncrona; 0 = infinito.
+dcmNetworkConnection.dcmMaxOpsInvoked:Max Ops Invoked|Maximal number of operations to invoke asynchronously; 0 = infinite.
+dcmNetworkConnection.dcmPackPDV:Paquete PDV|Activa/desactiva el empaquetado de PDV de comandos y datos en una PDU P-DATA-TF.
+dcmNetworkConnection.dcmAARQTimeout:Tiempo de espera AA-RQ|Tiempo de espera en ms para la recepción de la PDU A-ASSOCIATE-RQ después de la conexión TCP; no hay tiempo de espera si no existe.
+dcmNetworkConnection.dcmAAACTimeout:Tiempo de espera AA-AC|Tiempo de espera en ms para la recepción de PDU A-ASSOCIATE-AC tras el envío de PDU A-ASSOCIATE-RQ; no hay tiempo de espera si no existe.
+dcmNetworkConnection.dcmARRPTimeout:Tiempo de espera AR-RP|Tiempo de espera en ms para recibir una PDU A-RELEASE-RP después de enviar una PDU A-RELEASE-RQ; no hay tiempo límite si no existe.
+dcmNetworkConnection.dcmSendTimeout:Enviar tiempo de espera|Tiempo de espera en ms para enviar otros DIMSE RQs que no sean C-STORE RQs; no hay tiempo de espera si no existe.
+dcmNetworkConnection.dcmStoreTimeout:Almacenar tiempo de espera|Tiempo de espera en ms para enviar C-STORE RQs; no hay tiempo de espera si no existe.
+dcmNetworkConnection.dcmResponseTimeout:Tiempo de espera de respuesta|Tiempo de espera en ms para la recepcion de sobresaliente <br>- DIMSE RSPs other than C-MOVE / C-GET RSPs <br>- respuestas de mensajes HLT sobresalientes <br>- HTTP(S) respuestas <br>No hay tiempo de espera si no existe.
+dcmNetworkConnection.dcmRetrieveTimeout:Recuperar tiempo de espera|Tiempo de espera en ms para la recepción de RSPs C-GET o C-MOVE pendientes; no hay tiempo de espera si no existe.
+dcmNetworkConnection.dcmRetrieveTimeoutTotal:Recuperar tiempo de espera total|Indica si el temporizador con el tiempo de espera especificado para RSPs C-GET y C-MOVE pendientes se reiniciará al recibir RSPs pendientes (=falso) o no (=verdadero).
+dcmNetworkConnection.dcmIdleTimeout:Tiempo de espera inactivo|Indica que se cancelen las asociaciones inactivas después del tiempo de espera especificado en ms; no hay tiempo de espera si no existe.
+dcmNetworkConnection.dcmAATimeout:Tiempo de espera de A-ABORT|Tiempo de espera en ms para terminar de enviar cualquier DIMSE antes de enviar una PDU A-ABORT, activada por la aplicación o por expiración de otro tiempo de espera configurado de esta Conexión. Si expira el tiempo de espera, la conexión TCP se cerrará sin enviar el A-ABORT.

@@ -1,0 +1,7 @@
+workflowManagerDcm4cheeConfiguration:Configuración DCM4CHEE|Configuración DCM4CHEE.
+workflowManagerDcm4cheeConfiguration.workflowManagerDcm4cheeConfiguration:Nombre de configuración DCM4CHEE|Nombre de configuración DCM4CHEE para hacer referencia en los pasos del flujo de trabajo.
+workflowManagerDcm4cheeConfiguration.workflowManagerDcm4cheeConfigurationDcm4cheeAET:DCM4CHEE AET|DCM4CHEE AET para Transacciones de Flujo de Trabajo - este AET se utiliza para ordenar a DCM4CHEE que realice las Tareas necesarias (c-find,c-move,...).
+workflowManagerDcm4cheeConfiguration.workflowManagerDcm4cheeConfigurationDcm4cheeURL:URL DCM4CHEE|URL DCM4CHEE para transacciones de flujo de trabajo (por ejemplo, https://dcm4chee.server:8443/dcm4chee-arc).
+workflowManagerDcm4cheeConfiguration.workflowManagerDcm4cheeConfigurationKeycloakURL:URL de Keycloak|URL de Keycloak para autenticación (por ejemplo, https://keycloak.server:8843/realms/dcm4che/protocol/openid-connect/token).
+workflowManagerDcm4cheeConfiguration.workflowManagerDcm4cheeConfigurationKeycloakClient:Cliente Keycloak|Cliente Keycloak para autenticación.
+workflowManagerDcm4cheeConfiguration.workflowManagerDcm4cheeConfigurationKeycloakSecret:Secreto Keycloak|Secreto Keycloak para Autenticación.

@@ -1,0 +1,7 @@
+uiTable:Configuración de la tabla UI|Configuración de la tabla UI para la versión pro.
+uiTable.dcmuiTableConfigName:Nombre de configuración|Nombre de configuración de la tabla UI.
+uiTable.dcmuiTableConfigUsername:Nombre de usuario|Nombre de usuario para el que debe estar disponible este conjunto.
+uiTable.dcmuiTableConfigRoles:Rol|Nombre de usuario que puede utilizar este conjunto (Si se establece el nombre de usuario, el rol será ignorado).
+uiTable.dcmuiTableID:Identificador de Tabla|El identificador de la tabla en la interfaz de usuario para la que la configuración debe ser efectiva.
+uiTable.dcmuiTableConfigIsDefault:Es Predeterminado|Configura esta columna como predeterminada. (Asegúrese de que sólo uno de los Conjuntos - hermanos hijo se establece por defecto).
+uiTable.dcmuiTableColumnConfigObjects:Columnas de la tabla|Define las columnas de la tabla.

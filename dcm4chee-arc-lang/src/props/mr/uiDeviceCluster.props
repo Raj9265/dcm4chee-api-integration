@@ -1,0 +1,6 @@
+uiDeviceCluster:UI क्लस्टर कॉन्फिगरेशन|UI क्लस्टर कॉन्फिगरेशन.
+uiDeviceCluster.dcmuiDeviceClusterName:नाव|क्लस्टरचे नाव.
+uiDeviceCluster.dcmuiDeviceClusterDescription:वर्णन|क्लस्टरचे वर्णन.
+uiDeviceCluster.dcmuiDeviceClusterDevices:डिव्हाइसेससाठी वेब अनुप्रयोग|संबंधित डिव्हाइसेस वापरण्यासाठी कॉन्फिगर केलेले वेब अनुप्रयोग निवडा.
+uiDeviceCluster.dcmuiClusterWebApp:वेब अनुप्रयोग|QIDO-RS सेवेचे वेब अनुप्रयोग
+uiDeviceCluster.dcmuiDeviceClusterInstalled:स्थापित|'हो' असल्यास हा क्लस्टर स्थापित आहे.

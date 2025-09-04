@@ -1,0 +1,98 @@
+{
+  "values": {
+    "get": {
+      "tags": [
+        "KEY-VALUE-STORE"
+      ],
+      "summary": "Get Value",
+      "operationId": "GetValue",
+      "parameters": [
+        {
+          "$ref": "../parameters.json#/keyPathParam"
+        }
+      ],
+      "responses": {
+        "200": {
+          "description": "Found Value with specified Key.",
+          "content": {
+            "<content-type-of-value>": {
+              "schema": {
+                "type": "string",
+                "format": "binary"
+              }
+            }
+          }
+        },
+        "404": {
+          "description": "There is no Value with the specified Key."
+        },
+        "500": {
+          "description": "Internal Server Error."
+        }
+      }
+    },
+    "put": {
+      "tags": [
+        "KEY-VALUE-STORE"
+      ],
+      "summary": "Set Value",
+      "operationId": "SetValue",
+      "parameters": [
+        {
+          "$ref": "../parameters.json#/keyPathParam"
+        },
+        {
+          "$ref": "../parameters.json#/shareKeyValue"
+        }
+      ],
+      "requestBody": {
+        "description": "Value of any content-type",
+        "content": {
+          "<content-type-of-value>": {
+            "schema": {
+              "type": "string",
+              "format": "binary"
+            }
+          }
+        }
+      },
+      "responses": {
+        "204": {
+          "description": "successful operation"
+        },
+        "403": {
+          "description": "There is already a Value set for the specified Key by a different user."
+        },
+        "409": {
+          "description": "There is already a Value set for the specified Key with a different content type."
+        },
+        "500": {
+          "description": "Internal Server Error."
+        }
+      }
+    },
+    "delete": {
+      "tags": [
+        "KEY-VALUE-STORE"
+      ],
+      "summary": "Delete Value",
+      "operationId": "DeleteValue",
+      "parameters": [
+        {
+          "$ref": "../parameters.json#/keyPathParam"
+        }
+      ],
+      "responses": {
+        "204": {
+          "description": "successful operation"
+        },
+        "403": {
+          "description": "The Value for the specified Key was set by a different user."
+        },
+        "500": {
+          "description": "Internal Server Error."
+        }
+      }
+    }
+  }
+}

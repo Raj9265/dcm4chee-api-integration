@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- ***** BEGIN LICENSE BLOCK *****
+   - Version: MPL 1.1/GPL 2.0/LGPL 2.1
+   -
+   - The contents of this file are subject to the Mozilla Public License Version
+   - 1.1 (the "License"); you may not use this file except in compliance with
+   - the License. You may obtain a copy of the License at
+   - http://www.mozilla.org/MPL/
+   -
+   - Software distributed under the License is distributed on an "AS IS" basis,
+   - WITHOUT WARRANTY OF ANY KIND, either express or implied. See the License
+   - for the specific language governing rights and limitations under the
+   - License.
+   -
+   - The Original Code is part of dcm4che, an implementation of DICOM(TM) in
+   - Java(TM), hosted at https://github.com/dcm4che.
+   -
+   - The Initial Developer of the Original Code is
+   - Agfa Healthcare.
+   - Portions created by the Initial Developer are Copyright (C) 2011
+   - the Initial Developer. All Rights Reserved.
+   -
+   - Contributor(s):
+   - Gunter Zeilinger <gunterze@gmail.com>
+   - Michael Backhaus <michael.backhaus@agfa.com>
+   -
+   - Alternatively, the contents of this file may be used under the terms of
+   - either the GNU General Public License Version 2 or later (the "GPL"), or
+   - the GNU Lesser General Public License Version 2.1 or later (the "LGPL"),
+   - in which case the provisions of the GPL or the LGPL are applicable instead
+   - of those above. If you wish to allow use of your version of this file only
+   - under the terms of either the GPL or the LGPL, and not to allow others to
+   - use your version of this file under the terms of the MPL, indicate your
+   - decision by deleting the provisions above and replace them with the notice
+   - and other provisions required by the GPL or the LGPL. If you do not delete
+   - the provisions above, a recipient may use your version of this file under
+   - the terms of any one of the MPL, the GPL or the LGPL.
+   -
+   - ***** END LICENSE BLOCK *****  -->
+
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
+  <parent>
+    <artifactId>dcm4che-parent</artifactId>
+    <groupId>org.dcm4che</groupId>
+    <version>5.34.1</version>
+  </parent>
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>org.dcm4che.tool</groupId>
+  <artifactId>dcm4che-tool</artifactId>
+  <packaging>pom</packaging>
+  <name>dcm4che-tool</name>
+  <description>DICOM utilities</description>
+  <modules>
+    <module>dcm4che-tool-agfa2dcm</module>
+    <module>dcm4che-tool-agfa2sr</module>
+    <module>dcm4che-tool-common</module>
+    <module>dcm4che-tool-dcm2dcm</module>
+    <module>dcm4che-tool-dcm2jpg</module>
+    <module>dcm4che-tool-dcm2json</module>
+    <module>dcm4che-tool-dcm2pdf</module>
+    <module>dcm4che-tool-dcm2str</module>
+    <module>dcm4che-tool-dcm2xml</module>
+    <module>dcm4che-tool-dcmassoc</module>
+    <module>dcm4che-tool-dcmbenchmark</module>
+    <module>dcm4che-tool-dcmdir</module>
+    <module>dcm4che-tool-dcmdump</module>
+    <module>dcm4che-tool-dcmldap</module>
+    <module>dcm4che-tool-dcmqrscp</module>
+    <module>dcm4che-tool-dcmvalidate</module>
+    <module>dcm4che-tool-deidentify</module>
+    <module>dcm4che-tool-emf2sf</module>
+    <module>dcm4che-tool-findscu</module>
+    <module>dcm4che-tool-fixlo2un</module>
+    <module>dcm4che-tool-getscu</module>
+    <module>dcm4che-tool-hl72xml</module>
+    <module>dcm4che-tool-hl7pdq</module>
+    <module>dcm4che-tool-hl7pix</module>
+    <module>dcm4che-tool-hl7rcv</module>
+    <module>dcm4che-tool-hl7snd</module>
+    <module>dcm4che-tool-ianscp</module>
+    <module>dcm4che-tool-ianscu</module>
+    <module>dcm4che-tool-ihe</module>
+    <module>dcm4che-tool-jpg2dcm</module>
+    <module>dcm4che-tool-json2dcm</module>
+    <module>dcm4che-tool-json2index</module>
+    <module>dcm4che-tool-json2props</module>
+    <module>dcm4che-tool-json2rst</module>
+    <module>dcm4che-tool-maskpxdata</module>
+    <module>dcm4che-tool-mkkos</module>
+    <module>dcm4che-tool-movescu</module>
+    <module>dcm4che-tool-mppsscp</module>
+    <module>dcm4che-tool-mppsscu</module>
+    <module>dcm4che-tool-pdf2dcm</module>
+    <module>dcm4che-tool-planarconfig</module>
+    <module>dcm4che-tool-qstar</module>
+    <module>dcm4che-tool-stgcmtscu</module>
+    <module>dcm4che-tool-storescp</module>
+    <module>dcm4che-tool-storescu</module>
+    <module>dcm4che-tool-stowrs</module>
+    <module>dcm4che-tool-stowrsd</module>
+    <module>dcm4che-tool-swappxdata</module>
+    <module>dcm4che-tool-syslog</module>
+    <module>dcm4che-tool-syslogd</module>
+    <module>dcm4che-tool-tpl2xml</module>
+    <module>dcm4che-tool-upsscu</module>
+    <module>dcm4che-tool-wadors</module>
+    <module>dcm4che-tool-wadows</module>
+    <module>dcm4che-tool-xml2dcm</module>
+    <module>dcm4che-tool-xml2hl7</module>
+    <module>dcm4che-tool-xroad</module>
+  </modules>
+  <build>
+    <plugins>
+      <plugin>
+        <artifactId>maven-jar-plugin</artifactId>
+        <configuration>
+          <archive>
+            <manifest>
+              <addDefaultSpecificationEntries>true</addDefaultSpecificationEntries>
+              <addDefaultImplementationEntries>true</addDefaultImplementationEntries>
+            </manifest>
+          </archive>
+        </configuration>
+      </plugin>
+    </plugins>
+  </build>
+</project>

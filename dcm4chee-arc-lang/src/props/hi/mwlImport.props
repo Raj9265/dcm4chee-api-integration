@@ -1,0 +1,11 @@
+mwlImport:MWL आयात|बाहरी MWL SCP से अनुसूचित प्रक्रिया स्टेप्स के आयात को निर्दिष्ट करता है
+mwlImport.dcmMWLImportID:MWL आयात ID|MWL आयात का ID
+mwlImport.dicomAETitle:कॉलिंग AE का शीर्षक|बाहरी MWL SCP को भेजे गए A-ASSOCIATE-RQ में उपयोग किए गया कॉलिंग AE का शीर्षक ।
+mwlImport.dcmMergeMWLSCP:स्रोत MWL SCP|आयात करने के लिए अनुसूचित प्रक्रिया स्टेप्स क्वेरी करने के लिए बाहरी MWL SCP के AE का शीर्षक ।
+mwlImport.dcmMWLWorklistLabel:MWL Worklist Label|Value of Worklist Label (0074,1202) of imported MWL items fetched from Source MWL SCP. If absent, imported MWL items are provided by all MWL SCP Archive Network AEs.
+mwlImport.dcmDuration:इससे पहले आयात न करें|ISO-8601 कालावधि प्रारूप PnDTnHnMnS में निर्दिष्ट समय अंतराल से पहले भविष्य में अनुसूचित बाहरी MWL SCP से अनुसूचित प्रक्रिया स्टेप्स आयात करें; यदि अनुपस्थित है, तो भविष्य में निर्धारित सभी अनुसूचित प्रक्रिया स्टेप्स को आयात करें ।
+mwlImport.dcmMWLImportNotOlder:इससे पुराने आयात न करें|ISO-8601 कालावधि प्रारूप PnDTnHnMnS में निर्दिष्ट समय अंतराल से पहले पूर्व में अनुसूचित बाहरी MWL SCP से अनुसूचित प्रक्रिया स्टेप्स आयात करें; यदि अनुपस्थित है, तो पूर्व में निर्धारित सभी अनुसूचित प्रक्रिया स्टेप्स को आयात करें ।
+mwlImport.dcmMWLImportFilterBySCU:SCU द्वारा फ़िल्टर करें|बाहरी MWL SCP द्वारा लौटाए गए परिणामों पर निर्दिष्ट फ़िल्टर लागू करने का संकेत देता है ।
+mwlImport.dcmMWLImportDeleteNotFound:न लौटाए गए MWL हटाए|बाहरी MWL SCP द्वारा वापस नहीं किए गए अनुसूचित प्रक्रिया स्टेप्स को स्थानीय MWL से हटाने का संकेत देता है ।
+mwlImport.dcmProperty:मिलान कुंजी|मिलान कुंजी इस प्रारूप में ({AttributeTagOrKeyword}|{SequenceTagOrKeyword.AttributeTagOrKeyword})={value} । उदहारण: ScheduledProcedureStepSequence.ScheduledStationAETitle=MODALITY_XY
+mwlImport.dcmIncludeField:लौटाए कुंजी|लौटाए कुंजी इस प्रारूप में (all|{AttributeTagOrKeyword}|{SequenceTagOrKeyword.AttributeTagOrKeyword}) जो DICOM के अनुसार MWL SCPs द्वारा समर्थित होने के लिए आवश्यक विशेषताओं के अतिरिक्त बाहरी MWL SCP से अनुरोध किया गया । 'all' आर्काइव के मरीज़ और MWL विशेषता फ़िल्टर द्वारा कॉन्फ़िगर की गई सभी विशेषताओं का अनुरोध करता है ।

@@ -1,0 +1,7 @@
+rsForwardRule:Regla de reenvío RESTful|Regla de reenvío RESTful.
+rsForwardRule.cn:Nombre|Nombre arbitrario/significativo de la regla de reenvío RESTful.
+rsForwardRule.dcmWebAppName:Nombre de aplicación de la red|Nombre de la aplicación de la red.
+rsForwardRule.dcmURIPattern:Patrón de URL de solicitud|Reenviar sólo las solicitudes que coincidan con la expresión regular indicada. Si el prefijo es !, solamente se reenviará las peticiones que no coincidan con la Expresión Regular dada.
+rsForwardRule.dcmHostnamePattern:Patrón de nombre del anfitrión|Reenviar sólo las peticiones recibidas de clientes cuyo nombre de anfitrión coincida con la Expresión regular dada. Si el prefijo es !, solamente se reenviará las peticiones de clientes cuyo nombre de anfitrión no coincida con la Expresión Regular dada.
+rsForwardRule.dcmIPAddressPattern:Patrón de Dirección IP|Reenviar sólo las peticiones recibidas de clientes que coincidan con la Expresión Regular dada. Si el prefijo es !, solamente se reenviará las peticiones de clientes cuya dirección IP no coincida con la Expresión Regular dada.
+rsForwardRule.dcmRSOperation:Operación RESTful|Nombre de la operación RESTful que se reenviará a otra instancia de archivo.

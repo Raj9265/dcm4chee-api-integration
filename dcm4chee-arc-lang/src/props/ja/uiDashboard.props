@@ -1,0 +1,10 @@
+uiDashboard:UI ダッシュボード 構成|UI ダッシュボード 構成
+uiDashboard.dcmuiDashboardConfigName:UI ダッシュボード 構成名|UI ダッシュボード 構成名
+uiDashboard.dcmuiShowStarBlock:Show Star Block|Show Star Block - tasks without defined deviceName
+uiDashboard.dcmuiQueueName:キュー|UI ダッシュボード 構成ために キュー ブロックで 使用される キュー名。
+uiDashboard.dcmuiExportName:書き出す ことの IDs|UI ダッシュボード 構成ために キューと 比較 ブロックで 使用される 書き出すの IDs。
+uiDashboard.dicomuiDeviceName:デバイス名|読み出す ことと 書き出す ことの ブロックの 生成に 使用される UI ダッシュボード 構成の デバイス名
+uiDashboard.dicomuiIgnoreParams:監査 イベント パラメーターを 無視する|監査 イベントで 無視する 必要が ある エラスティクサーチ パラメーターを 設定します。例えば : Source.UserID=TESTVALUE
+uiDashboard.dcmuiCountWebApp:カウント ウェブ アプリケーション|選択された ウェブ アプリケーションは、ダッシュボードに 検査の カウントを 取得する ために 使用されます。
+uiDashboard.dcmuiCompareSideObjects:側面を 比較 する|側面を 比較 する
+uiDashboard.dicomuiDockerContainer:アーカイブ ドカー コンテナー|ハードウェア ページで 使用される アーカイブ ドカー コンテナーの 名前

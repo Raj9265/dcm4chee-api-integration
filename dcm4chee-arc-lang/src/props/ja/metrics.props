@@ -1,0 +1,5 @@
+metrics:メトリック 記述子|メトリック 記述子
+metrics.dcmMetricsName:メトリック名|メトリック名
+metrics.dicomDescription:メトリックの 説明|メトリックの 制約のない テキスト 説明
+metrics.dcmMetricsRetentionPeriod:メトリック 保持 期間|分で メトリック 保持 期間
+metrics.dcmUnit:メトリック 単位|メトリック データの 単位

@@ -1,0 +1,5 @@
+studyUpdaterConfig:Configuración del actualizador de estudios|Configuración del actualizador de estudios.
+studyUpdaterConfig.studyUpdaterUpdaterURL:Actualizador URL| URL de punto final REST para el servicio de Actualizador externo (p. ej. Actualización de estudio CSV RS).
+studyUpdaterConfig.studyUpdaterUpdaterProperty:Propiedades del Actualizador|Propiedades para la configuración específica del Actualizador en la forma <name>=<value> - p.e. Separador=,
+studyUpdaterConfig.studyUpdaterKeycloakClientID:ID de cliente Keycloak|ID de cliente Keycloak.
+studyUpdaterConfig.studyUpdaterUpdaterWarningOnNoMatch:Aviso de no coincidencia|Aviso de no coincidencia.

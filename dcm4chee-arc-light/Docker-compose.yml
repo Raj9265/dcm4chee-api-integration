@@ -1,0 +1,69 @@
+version: "3"
+
+services:
+  ldap:
+    image: dcm4che/slapd-dcm4chee:2.6.7-33.1
+    logging:
+      driver: json-file
+      options:
+        max-size: "10m"
+    ports:
+      - "389:389"
+    environment:
+      STORAGE_DIR: /storage/fs1
+    volumes:
+      - ./ldap:/var/lib/openldap/openldap-data
+      - ./slapd.d:/etc/openldap/slapd.d
+
+  db:
+    image: dcm4che/postgres-dcm4chee:17.1-33
+    logging:
+      driver: json-file
+      options:
+        max-size: "10m"
+    ports:
+      - "6543:5432"
+    environment:
+      POSTGRES_DB: pacsdb
+      POSTGRES_USER: pacs
+      POSTGRES_PASSWORD: pacs
+    volumes:
+      - ./db:/var/lib/postgresql/data
+
+  arc:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    image: dcm4chee-custom:5.34.1
+    user: root
+    logging:
+      driver: json-file
+      options:
+        max-size: "10m"
+    ports:
+      - "8080:8080"
+      - "8443:8443"
+      - "9990:9990"
+      - "9993:9993"
+      - "11112:11112"
+      - "2762:2762"
+      - "2575:2575"
+      - "12575:12575"
+    environment:
+      POSTGRES_DB: pacsdb
+      POSTGRES_USER: pacs
+      POSTGRES_PASSWORD: pacs
+      WILDFLY_CHOWN: /storage
+      WILDFLY_WAIT_FOR: ldap:389 db:5432
+    depends_on:
+      - ldap
+      - db
+    volumes:
+      - ./storage:/storage
+
+
+
+
+
+
+

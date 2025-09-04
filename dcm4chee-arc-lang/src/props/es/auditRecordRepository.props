@@ -1,0 +1,3 @@
+auditRecordRepository:Repositorio de Registros de Auditoría|Información relacionada con el Repositorio de Registros de Auditoría
+auditRecordRepository.dicomNetworkConnectionReference:Referencia de Conexión de Red|Los Punteros JSON a los objetos de Conexión de Red de este Repositorio de Registros de Auditoría
+auditRecordRepository.dicomInstalled:instalado|Verdadero si el ARR está instalado en la red. Si no está presente, la información sobre el estado instalado del ARR se hereda del dispositivo

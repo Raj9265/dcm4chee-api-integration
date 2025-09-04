@@ -1,0 +1,4 @@
+idGenerator:Generador ID|Generador ID
+idGenerator.dcmIDGeneratorName:Nombre del generador de ID|Nombre del generador de ID.
+idGenerator.dcmIDGeneratorFormat:Formato del generador de ID|Cadena de formato utilizada por este generador de ID. %0<width>d será reemplazado por un número secuencial con ceros a la izquierda de acuerdo al ancho dado.
+idGenerator.dcmIDGeneratorInitialValue:Valor inicial del generador de ID|Valor inicial de la secuencia utilizada por este generador de ID.

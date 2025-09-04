@@ -1,0 +1,7 @@
+rsForwardRule:Regola di inoltro RESTful|Regola di inoltro RESTful
+rsForwardRule.cn:Nome|Nome arbitrario/significativo della regola forward RESTful
+rsForwardRule.dcmWebAppName:Nome dell'applicazione web|Nome dell'applicazione Web
+rsForwardRule.dcmURIPattern:Richiedi pattern URL|Inoltra solo le richieste che corrispondono alla data espressione regolare. Se preceduto da ! , Inoltra solo le richieste che non corrispondono all'espressione regolare data.
+rsForwardRule.dcmHostnamePattern:Hostname Pattern|Only forward requests received from clients which hostname match the given Regular Expression. If prefixed with !, only forward requests from clients which hostname does not match the given Regular Expression.
+rsForwardRule.dcmIPAddressPattern:IP Address Pattern|Only forward requests received from clients which match the given Regular Expression. If prefixed with !, only forward requests from clients which IP address does not match the given Regular Expression.
+rsForwardRule.dcmRSOperation:Operazione RESTful|Nome dell'operazione RESTful che deve essere inoltrata a un'altra istanza di archivio.

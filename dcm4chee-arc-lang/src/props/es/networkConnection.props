@@ -1,0 +1,7 @@
+networkConnection:Conexión de Red|Describe un puerto TCP/UDP en un dispositivo de red.
+networkConnection.cn:Nombre|Nombre arbitrario/significativo para el objeto Conexión de red.
+networkConnection.dicomHostname:Anfitrión|Nombre DNS para esta conexión en particular.
+networkConnection.dicomPort:Puerto|Puerto TCP/UDP en el que escucha un servicio. Puede faltar si esta conexión de red sólo se utiliza para conexiones salientes.
+networkConnection.dicomTLSCipherSuite:Sitios de Cifrado TLS|Los sitios de cifrado TLS soportados en esta conexión en particular. Si no está presente TLS está deshabilitado.
+networkConnection.dicomInstalled:instalado|Verdadero si la conexión de red está instalada en la red. Si no está presente, la información sobre el estado de instalación de la conexión de red se hereda del dispositivo.
+networkConnection.dcmNetworkConnection:Extensión de conexión de red|dcm4che Atributos de conexión de red propietarios.

@@ -1,0 +1,5 @@
+metrics:नाप का वर्णनकर्ता|नाप का वर्णनकर्ता ।
+metrics.dcmMetricsName:नाप का नाम|नाप का नाम ।
+metrics.dicomDescription:नाप का वर्णन|नाप का स्वैछिक विषय वर्णन ।
+metrics.dcmMetricsRetentionPeriod:नाप धारण कालावधि|मिनटों में नाप धारण कालावधि ।
+metrics.dcmUnit:नाप की इकाई|नाप डेटा की इकाई ।

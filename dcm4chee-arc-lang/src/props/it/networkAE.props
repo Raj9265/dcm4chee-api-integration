@@ -1,0 +1,13 @@
+networkAE:AE di Rete|Entità dell'applicazione che fornisce servizi su una rete
+networkAE.dicomAETitle:Titolo AE|Titolo AE univoco per questo Network AE
+networkAE.dicomNetworkConnectionReference:Riferimento per la connessione di rete|Puntatori JSON agli oggetti di connessione di rete per questo AE
+networkAE.dicomAssociationInitiator:Iniziatore di associazione|Vero se l'AE di rete può avviare associazioni.
+networkAE.dicomAssociationAcceptor:Accettatore di associazione|True if the Network AE can accept associations.
+networkAE.dicomDescription:Descrizione AE|Descrizione di testo libera dell'entità dell'applicazione
+networkAE.dicomApplicationCluster:Cluster di applicazioni|Nomi definiti localmente per un sottoinsieme di applicazioni correlate
+networkAE.dicomPreferredCalledAETitle:Titolo AE Chiamato preferito|Titoli AE preferiti per l'avvio di associazioni
+networkAE.dicomPreferredCallingAETitle:Titolo AE di chiamata preferito|Titoli AE preferiti per accettare associazioni
+networkAE.dicomSupportedCharacterSet:Set di caratteri supportato|Set di caratteri supportati dal Network AE per i set di dati che esso riceve
+networkAE.dicomInstalled:installato|Vero se l'AE è installato sulla rete. Se non presente, le informazioni sullo stato di installazione dell'AE vengono ereditate dal dispositivo
+networkAE.dicomTransferCapability:Capacità di trasferimento|Funzionalità di trasferimento fornite dall'entità dell'applicazione
+networkAE.dcmNetworkAE:Estensione AE di rete|Attributi proprietari di Network AE di dcm4che

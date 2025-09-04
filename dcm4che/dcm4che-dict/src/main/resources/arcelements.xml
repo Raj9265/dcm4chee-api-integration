@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+  ~ **** BEGIN LICENSE BLOCK *****
+  ~ Version: MPL 1.1/GPL 2.0/LGPL 2.1
+  ~
+  ~ The contents of this file are subject to the Mozilla Public License Version
+  ~ 1.1 (the "License"); you may not use this file except in compliance with
+  ~ the License. You may obtain a copy of the License at
+  ~ http://www.mozilla.org/MPL/
+  ~
+  ~ Software distributed under the License is distributed on an "AS IS" basis,
+  ~ WITHOUT WARRANTY OF ANY KIND, either express or implied. See the License
+  ~ for the specific language governing rights and limitations under the
+  ~ License.
+  ~
+  ~ The Original Code is part of dcm4che, an implementation of DICOM(TM) in
+  ~ Java(TM), hosted at https://github.com/dcm4che.
+  ~
+  ~ The Initial Developer of the Original Code is
+  ~ J4Care.
+  ~ Portions created by the Initial Developer are Copyright (C) 2013
+  ~ the Initial Developer. All Rights Reserved.
+  ~
+  ~ Contributor(s):
+  ~ See @authors listed below
+  ~
+  ~ Alternatively, the contents of this file may be used under the terms of
+  ~ either the GNU General Public License Version 2 or later (the "GPL"), or
+  ~ the GNU Lesser General Public License Version 2.1 or later (the "LGPL"),
+  ~ in which case the provisions of the GPL or the LGPL are applicable instead
+  ~ of those above. If you wish to allow use of your version of this file only
+  ~ under the terms of either the GPL or the LGPL, and not to allow others to
+  ~ use your version of this file under the terms of the MPL, indicate your
+  ~ decision by deleting the provisions above and replace them with the notice
+  ~ and other provisions required by the GPL or the LGPL. If you do not delete
+  ~ the provisions above, a recipient may use your version of this file under
+  ~ the terms of any one of the MPL, the GPL or the LGPL.
+  ~
+  ~ **** END LICENSE BLOCK *****
+  -->
+
+<elements>
+  <el tag="7777xx10" keyword="PatientCreateDateTime" vr="DT" vm="1">Patient Create Date Time</el>
+  <el tag="7777xx11" keyword="PatientUpdateDateTime" vr="DT" vm="1">Patient Update Date Time</el>
+  <el tag="7777xx12" keyword="PatientVerificationDateTime" vr="DT" vm="1">Patient Verification Date Time</el>
+  <el tag="7777xx13" keyword="PatientVerificationStatus" vr="CS" vm="1">Patient Verification Status</el>
+  <el tag="7777xx14" keyword="FailedVerificationsOfPatient" vr="US" vm="1">Failed Verifications of Patient</el>
+  <el tag="7777xx15" keyword="DominantPatientSequence" vr="SQ" vm="1">Dominant Patient Sequence</el>
+  <el tag="7777xx16" keyword="LogicalPatientID" vr="LO" vm="1">Logical Patient ID</el>
+  <el tag="7777xx20" keyword="StudyReceiveDateTime" vr="DT" vm="1">Study Receive Date Time</el>
+  <el tag="7777xx21" keyword="StudyUpdateDateTime" vr="DT" vm="1">Study Update Date Time</el>
+  <el tag="7777xx22" keyword="StudyAccessDateTime" vr="DT" vm="1">Study Access Date Time</el>
+  <el tag="7777xx23" keyword="StudyExpirationDate" vr="DA" vm="1">Study Expiration Date</el>
+  <el tag="7777xx24" keyword="StudyRejectionState" vr="CS" vm="1">Study Rejection State</el>
+  <el tag="7777xx25" keyword="StudyCompleteness" vr="CS" vm="1">Study Completeness</el>
+  <el tag="7777xx26" keyword="FailedRetrievesOfStudy" vr="US" vm="1">Failed Retrieves of Study</el>
+  <el tag="7777xx27" keyword="StudyAccessControlID" vr="LO" vm="1">Study Access Control ID</el>
+  <el tag="7777xx28" keyword="StorageIDsOfStudy" vr="LO" vm="1-n">Storage IDs of Study</el>
+  <el tag="7777xx29" keyword="StudySizeInKB" vr="UL" vm="1">Study Size in KB</el>
+  <el tag="7777xx2A" keyword="StudySizeBytes" vr="US" vm="1">Study Size Bytes</el>
+  <el tag="7777xx2B" keyword="StudyExpirationState" vr="CS" vm="1">Study Expiration State</el>
+  <el tag="7777xx2C" keyword="StudyExpirationExporterID" vr="LO" vm="1">Study Expiration Exporter ID</el>
+  <el tag="7777xx2D" keyword="StudyModifiedDateTime" vr="DT" vm="1">Study Modified Date Time</el>
+  <el tag="7777xx30" keyword="SeriesReceiveDateTime" vr="DT" vm="1">Series Receive Date Time</el>
+  <el tag="7777xx31" keyword="SeriesUpdateDateTime" vr="DT" vm="1">Series Update Date Time</el>
+  <el tag="7777xx33" keyword="SeriesExpirationDate" vr="DA" vm="1">Series Expiration Date</el>
+  <el tag="7777xx34" keyword="SeriesRejectionState" vr="CS" vm="1">Series Rejection State</el>
+  <el tag="7777xx35" keyword="SeriesCompleteness" vr="CS" vm="1">Series Completeness</el>
+  <el tag="7777xx36" keyword="FailedRetrievesOfSeries" vr="US" vm="1">Failed Retrieves of Series</el>
+  <el tag="7777xx37" keyword="SendingApplicationEntityTitleOfSeries" vr="AE" vm="1">Sending Application Entity Title of Series</el>
+  <el tag="7777xx38" keyword="ScheduledMetadataUpdateDateTimeOfSeries" vr="DT" vm="1">Scheduled Metadata Update Date Time of Series</el>
+  <el tag="7777xx39" keyword="ScheduledInstanceRecordPurgeDateTimeOfSeries" vr="DT" vm="1">Scheduled Instance Record Purge Date Time of Series</el>
+  <el tag="7777xx3A" keyword="InstanceRecordPurgeStateOfSeries" vr="CS" vm="1">Instance Record Purge State of Series</el>
+  <el tag="7777xx3B" keyword="SeriesMetadataStorageID" vr="LO" vm="1">Series Metadata Storage ID</el>
+  <el tag="7777xx3C" keyword="SeriesMetadataStoragePath" vr="LO" vm="1-n">Series Metadata Storage Path</el>
+  <el tag="7777xx3D" keyword="SeriesMetadataStorageObjectSize" vr="UL" vm="1">Series Metadata Storage Object Size</el>
+  <el tag="7777xx3E" keyword="SeriesMetadataStorageObjectDigest" vr="LO" vm="1">Series Metadata Storage Object Digest</el>
+  <el tag="7777xx3F" keyword="SeriesMetadataStorageObjectStatus" vr="CS" vm="1">Series Metadata Storage Object Status</el>
+  <el tag="7777xx40" keyword="InstanceReceiveDateTime" vr="DT" vm="1">Instance Receive Date Time</el>
+  <el tag="7777xx41" keyword="InstanceUpdateDateTime" vr="DT" vm="1">Instance Update Date Time</el>
+  <el tag="7777xx42" keyword="RejectionCodeSequence" vr="SQ" vm="1">Rejection Code Sequence</el>
+  <el tag="7777xx43" keyword="InstanceExternalRetrieveAETitle" vr="AE" vm="1">Instance External Retrieve AE Title</el>
+  <el tag="7777xx44" keyword="SeriesExternalRetrieveAETitle" vr="AE" vm="1">Series External Retrieve AE Title</el>
+  <el tag="7777xx45" keyword="StudyExternalRetrieveAETitle" vr="AE" vm="1">Study External Retrieve AE Title</el>
+  <el tag="7777xx46" keyword="SeriesAccessControlID" vr="LO" vm="1">Series Access Control ID</el>
+  <el tag="7777xx50" keyword="StorageID" vr="LO" vm="1">Storage ID</el>
+  <el tag="7777xx51" keyword="StoragePath" vr="LO" vm="1-n">Storage Path</el>
+  <el tag="7777xx52" keyword="StorageTransferSyntaxUID" vr="UI" vm="1">Storage Transfer Syntax UID</el>
+  <el tag="7777xx53" keyword="StorageObjectSize" vr="UL" vm="1">Storage Object Size</el>
+  <el tag="7777xx54" keyword="StorageObjectDigest" vr="LO" vm="1">Storage Object Digest</el>
+  <el tag="7777xx55" keyword="OtherStorageSequence" vr="LO" vm="1">Other Storage Sequence</el>
+  <el tag="7777xx56" keyword="StorageObjectStatus" vr="CS" vm="1">Storage Object Status</el>
+  <el tag="7777xx57" keyword="StorageObjectMultiReference" vr="IS" vm="1">Storage Object Multi-Reference</el>
+  <el tag="7777xx60" keyword="ScheduledStorageVerificationDateTimeOfSeries" vr="DT" vm="1">Scheduled Storage Verification Date Time of Series</el>
+  <el tag="7777xx61" keyword="FailuresOfLastStorageVerificationOfSeries" vr="US" vm="1">Failures of last Storage Verification of Series</el>
+  <el tag="7777xx62" keyword="ScheduledCompressionDateTimeOfSeries" vr="DT" vm="1">Scheduled Compression Date Time of Series</el>
+  <el tag="7777xx63" keyword="FailuresOfLastCompressionOfSeries" vr="US" vm="1">Failures of last Compression of Series</el>
+  <el tag="7777xx64" keyword="SeriesExpirationState" vr="CS" vm="1">Series Expiration State</el>
+  <el tag="7777xx65" keyword="SeriesExpirationExporterID" vr="LO" vm="1">Series Expiration Exporter ID</el>
+  <el tag="7777xx66" keyword="SeriesMetadataCreationDateTime" vr="DT" vm="1">Series Metadata Creation Date Time</el>
+  <el tag="7777xx67" keyword="SeriesMetadataUpdateFailures" vr="US" vm="1">Series Metadata Update Failures</el>
+  <el tag="7777xx68" keyword="ReceivingApplicationEntityTitleOfSeries" vr="AE" vm="1">Receiving Application Entity Title of Series</el>
+  <el tag="7777xx69" keyword="SendingPresentationAddressOfSeries" vr="UR" vm="1">Sending Presentation Address of Series</el>
+  <el tag="7777xx6A" keyword="ReceivingPresentationAddressOfSeries" vr="UR" vm="1">Receiving Presentation Address of Series</el>
+  <el tag="7777xx6B" keyword="SendingHL7ApplicationOfSeries" vr="LO" vm="1">Sending HL7 Application of Series</el>
+  <el tag="7777xx6C" keyword="SendingHL7FacilityOfSeries" vr="LO" vm="1">Sending HL7 Facility of Series</el>
+  <el tag="7777xx6D" keyword="ReceivingHL7ApplicationOfSeries" vr="LO" vm="1">Receiving HL7 Application of Series</el>
+  <el tag="7777xx6E" keyword="ReceivingHL7FacilityOfSeries" vr="LO" vm="1">Receiving HL7 Facility of Series</el>
+  <el tag="7777xx6F" keyword="SeriesModifiedDateTime" vr="DT" vm="1">Series Modified Date Time</el>
+  <el tag="7777xx70" keyword="MPPSCreateDateTime" vr="DT" vm="1">MPPS Create Date Time</el>
+  <el tag="7777xx71" keyword="MPPSUpdateDateTime" vr="DT" vm="1">MPPS Update Date Time</el>
+  <el tag="7777xxE0" keyword="XRoadPersonStatus" vr="CS" vm="1">X-Road Person Status</el>
+  <el tag="7777xxE1" keyword="XRoadDataStatus" vr="CS" vm="1">X-Road Data Status</el>
+</elements>

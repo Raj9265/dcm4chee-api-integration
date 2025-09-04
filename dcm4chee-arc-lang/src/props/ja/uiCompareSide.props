@@ -1,0 +1,8 @@
+uiCompareSide:比較側名|比較側名
+uiCompareSide.dcmuiCompareSideName:名前|比較側名
+uiCompareSide.dcmuiCompareSideDescription:説明|この グループに 関する 短い 説明。
+uiCompareSide.dcmuiCompareSideOrder:順序|比較側の 順序
+uiCompareSide.dcmuiCompareSideCluster:クラスタ|クラスタを 選択 する。
+uiCompareSide.dcmuiCompareSideElasticsearch:エラスティクサーチ|エラスティクサーチ URLを 選択 する。
+uiCompareSide.dcmuiCompareSideQueueName:キュー|比較側に 使用 する キュー名を 選択 します。
+uiCompareSide.dcmuiCompareSideInstalled:インストール済み|'真'の場合、この 比較側は ダッシュボードで アクティブです。

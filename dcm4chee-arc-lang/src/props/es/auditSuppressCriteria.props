@@ -1,0 +1,14 @@
+auditSuppressCriteria:Criterios de supresión de auditoría|Criterios de supresión de auditoría.
+auditSuppressCriteria.cn:Nombre|Nombre arbitrario/significativo del criterio de supresión de auditoría.
+auditSuppressCriteria.dcmAuditEventID:Identificación del evento de auditoría|DICOM PS 3.15 A.5 Código de identificación del evento de auditoría y nombre del sistema de códigos en formato (CV, CSD, "CM").
+auditSuppressCriteria.dcmAuditEventTypeCode:Código de tipo de evento de auditoría|DICOM PS 3.15 A.5 Código de tipo de evento de auditoría en formato (CV, CSD, "CM").
+auditSuppressCriteria.dcmAuditEventActionCode:Código de acción del evento|DICOM PS 3.15 A.5 Código del tipo de acción del evento de auditoría.
+auditSuppressCriteria.dcmAuditEventOutcomeIndicator:Indicador de resultado del evento|DICOM PS 3.15 A.5 Indicador de resultado del evento de auditoría.
+auditSuppressCriteria.dcmAuditUserID:Identificación de usuario|ID de usuario del participante activo de la auditoría PS 3.15 A.5.
+auditSuppressCriteria.dcmAuditAlternativeUserID:Identificación de usuario alternativa|DICOM PS 3.15 A.5 Identificación de usuario alternativo del participante activo en la auditoría.
+auditSuppressCriteria.dcmAuditUserRoleIDCode:Código de identificación de la función del usuario|DICOM PS 3.15 A.5 Código de identificación de la función del usuario del participante activo en formato de auditoría (CV, CSD, "CM").
+auditSuppressCriteria.dcmAuditNetworkAccessPointID:Identificación del punto de acceso a la red|DICOM PS 3.15 A.5 Identificación del punto de acceso a la red del participante activo en la auditoría.
+auditSuppressCriteria.dcmAuditUserIsRequestor:El usuario es el solicitante|Indica si el participante activo es el iniciador/solicitante del evento de auditoría, tal como se especifica en DICOM PS 3.15 A.5.
+auditSuppressCriteria.dcmParticipantObjectTypeCode:Código de tipo de objeto de participante|DICOM PS 3.15 A.5 Código de tipo de objeto de participante.
+auditSuppressCriteria.dcmParticipantObjectTypeCodeRole:Código de tipo de objeto de participante Función|DICOM PS 3.15 A.5 Código de tipo de objeto de participante Función.
+auditSuppressCriteria.dcmParticipantObjectDataLifeCycle:Ciclo de vida de los datos del objeto participante|DICOM PS 3.15 A.5 Ciclo de vida de los datos del objeto participante.

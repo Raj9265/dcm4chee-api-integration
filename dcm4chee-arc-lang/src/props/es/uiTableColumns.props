@@ -1,0 +1,8 @@
+uiTableColumns:Configuración de las Columnas de la Tabla de Estudio UI|Columnas de la Tabla de Estudio.
+uiTableColumns.dcmuiColumnName:Nombre de Columna|Nombre de la Columna en la Tabla de Estudio.
+uiTableColumns.dcmuiColumnId:ID de Columna|Cada columna posible que se utiliza en la UI, tiene un ID, utilizando el ID puede cambiar algunas de las propiedades de esa Columna, como Nombre, Descripción, Orden o ancho.
+uiTableColumns.dcmuiColumnTitle:Descripción de la Columna|Descripción de la Columna, mostrada al pasar el ratón por encima.
+uiTableColumns.dcmuiValuePath:Ruta del valor|Valor (objeto json) Ruta de la columna (por ejemplo: '00100010.Value[0].Alphabetic' para el nombre del paciente o '00100020.Value[0]' para el ID del paciente).
+uiTableColumns.dcmuiValueType:Tipo del valor|Tipo de la columna como obtener el valor, por defecto debe ser 'valor'.
+uiTableColumns.dcmuiColumnWidth:Ancho de la columna en peso|Ancho de la columna en peso ( x > 0.1 - x < infinito ) por defecto 1.
+uiTableColumns.dcmuiColumnOrder:Orden de la columna|Orden de la columna.

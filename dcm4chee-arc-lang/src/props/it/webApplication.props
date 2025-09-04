@@ -1,0 +1,11 @@
+webApplication:Applicazione Web|Informazioni sull'applicazione Web
+webApplication.dcmWebAppName:Nome dell'applicazione web|Nome dell'applicazione Web
+webApplication.dicomNetworkConnectionReference:Connessione/i di rete dell'applicazione web|Connessioni di rete su cui sono disponibili i servizi dell'applicazione Web
+webApplication.dicomDescription:Descrizione dell'applicazione Web|Descrizione testuale libera dell'applicazione Web
+webApplication.dcmWebServicePath:Percorso del servizio Web|Path HTTP  dei servizi dell'applicazione Web
+webApplication.dcmWebServiceClass:Web Service Class|Classi di servizi Web fornite dall'applicazione Web
+webApplication.dcmKeycloakClientID:ID client Keycloak|ID client Keycloak per l'applicazione Web
+webApplication.dicomAETitle:Titolo AE|Titolo AE di Network AE associato a questa applicazione web
+webApplication.dicomApplicationCluster:Cluster di applicazioni|Nomi definiti localmente per un sottoinsieme di applicazioni correlate
+webApplication.dcmProperty:Proprietà|Proprietà nel formato {name}={value} Refer <a href="https://github.com/dcm4che/dcm4chee-arc-light/wiki/Web-Application-Properties" target="_blank">Web Application Properties</a> configuration examples based on use cases.
+webApplication.dicomInstalled:installato|Vero se l'applicazione HL7 è installata sulla rete. Se non presenti, le informazioni sullo stato di installazione dell'applicazione HL7 vengono ereditate dal dispositivo

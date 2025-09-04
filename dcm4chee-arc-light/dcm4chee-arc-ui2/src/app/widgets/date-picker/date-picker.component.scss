@@ -1,0 +1,48 @@
+.date_picker{
+  .input_block{
+    display: grid;
+    grid-template-columns: calc( 100% - 25px ) 25px;
+    width: 100%;
+    justify-content: center;
+    z-index: 1;
+    align-items: center;
+    position: relative;
+    background: white;
+    border-bottom: 1px solid #ccc;
+    .input_mask{
+      border: none;
+    }
+    .glyphicon-calendar{
+      color:white;
+    }
+  }
+  .original_input{
+    position: relative;
+    color: white !important;
+    left: -110px;
+    top: -2px;
+    &.date_picker_mode{
+      left: 0;
+    }
+
+  }
+  .hide_layer{
+    display: block;
+    width: 1px;
+    height: 1px;
+    color: white;
+    position: absolute;
+    overflow: hidden;
+  }
+  .icon_block{
+    background: var(--backgroundHoverColor);
+    display: flex;
+    height: 25px;
+    width: 25px;
+    justify-content: center;
+    align-items: center;
+    &:hover{
+      cursor: pointer;
+    }
+  }
+}

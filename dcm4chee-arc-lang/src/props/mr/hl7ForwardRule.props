@@ -1,0 +1,4 @@
+hl7ForwardRule:HL7 फॉरवर्ड नियम|HL7 फॉरवर्ड नियम.
+hl7ForwardRule.cn:नाव|HL7 फॉरवर्ड नियमचे अनियंत्रित / अर्थपूर्ण नाव.
+hl7ForwardRule.hl7FwdApplicationName:HL7 फॉरवर्ड अनुप्रयोगाचे नाव|HL7 फॉरवर्ड गंतव्य अनुप्रयोगाचे आणि सुविधेचे नाव (अनुप्रयोग|सुविधा).
+hl7ForwardRule.dcmProperty:अटी|अटी या स्वरूपात {SEG}-{Seq#}[.{Comp#}[.{SubComp#}]][!]={regEx}. उदाहरणे: MSH-4=FORWARD किंवा MSH-9=ADT\\^A28\\^ADT_A05 किंवा PID-3[.3]=PIDIssuer किंवा PID-3[.3[.2]]=PIDIssuerUniversalEntityIDType

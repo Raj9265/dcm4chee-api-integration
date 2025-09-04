@@ -1,0 +1,3 @@
+auditRecordRepository:Archivio delle registrazioni di controllo|Informazioni relative all'archivio delle registrazioni di controllo
+auditRecordRepository.dicomNetworkConnectionReference:Riferimento per la connessione di rete|I puntatori JSON agli oggetti di connessione di rete di questo repository di registrazioni di controllo
+auditRecordRepository.dicomInstalled:installato|Vero se ARR è installato sulla rete. Se non presente, le informazioni sullo stato di installazione dell'ARR vengono ereditate dal dispositivo

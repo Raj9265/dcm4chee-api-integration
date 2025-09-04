@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module xmlns="urn:jboss:module:1.1" name="org.dcm4che.mime">
+    <resources>
+        <resource-root path="dcm4che-mime-${version}.jar"/>
+    </resources>
+
+    <dependencies>
+        <module name="java.se" export="true"/>
+        <module name="java.xml" export="true"/>
+        <module name="java.xml.crypto" export="true"/>
+        <module name="jdk.xml.dom" export="true"/>
+    </dependencies>
+</module>

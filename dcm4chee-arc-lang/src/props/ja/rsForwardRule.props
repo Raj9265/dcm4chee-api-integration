@@ -1,0 +1,7 @@
+rsForwardRule:RESTful 転送 規則|RESTful 転送 規則
+rsForwardRule.cn:名前|RESTful 転送 規則の 任意 / 意味の ある 名前
+rsForwardRule.dcmWebAppName:ウェブ アプリケーション名|ウェブ アプリケーションの 名前
+rsForwardRule.dcmURIPattern:要求 URL パターン|指定された 正規表現に 一致 する 要求のみを 転送します。 接頭辞が ！の 場合、 指定された 正規表現に 一致しない 要求のみを 転送します。
+rsForwardRule.dcmHostnamePattern:Hostname Pattern|Only forward requests received from clients which hostname match the given Regular Expression. If prefixed with !, only forward requests from clients which hostname does not match the given Regular Expression.
+rsForwardRule.dcmIPAddressPattern:IP Address Pattern|Only forward requests received from clients which match the given Regular Expression. If prefixed with !, only forward requests from clients which IP address does not match the given Regular Expression.
+rsForwardRule.dcmRSOperation:RESTful 操作|別の アーカイブ インスタンスに 転送される RESTful 操作の 名前。

@@ -1,0 +1,6 @@
+uiDeviceCluster:Configurazione cluster UI|Configurazione dell'URL del dispositivo da utilizzare accanto all'URL dell'interfaccia utente principale
+uiDeviceCluster.dcmuiDeviceClusterName:Nome|Nome Cluster
+uiDeviceCluster.dcmuiDeviceClusterDescription:Descrizione|Descrizione del cluster
+uiDeviceCluster.dcmuiDeviceClusterDevices:Web Application for Devices|Select configured WebApps to used to access the corresponding devices
+uiDeviceCluster.dcmuiClusterWebApp:Web Application|Web Application with the class QIDO-RS
+uiDeviceCluster.dcmuiDeviceClusterInstalled:Installato|Utilizza questo URL nell'interfaccia utente

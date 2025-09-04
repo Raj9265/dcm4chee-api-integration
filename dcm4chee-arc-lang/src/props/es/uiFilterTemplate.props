@@ -1,0 +1,8 @@
+uiFilterTemplate:Plantilla de filtro UI|Plantilla de filtro definida.
+uiFilterTemplate.dcmuiFilterTemplateGroupName:Nombre|Nombre de la plantilla.
+uiFilterTemplate.dcmuiFilterTemplateID:ID|ID del filtro al que se puede aplicar esta plantilla.
+uiFilterTemplate.dcmuiFilterTemplateDescription:Descripción|Descripción de la plantilla de filtro.
+uiFilterTemplate.dcmuiFilterTemplateUsername:Nombre de usuario|Nombre de usuario que puede usar esta plantilla.
+uiFilterTemplate.dcmuiFilterTemplateRole:Rol|Nombre de usuario que puede utilizar esta plantilla.
+uiFilterTemplate.dcmuiFilterTemplateFilters:Filtros|Filtros por defecto en esta plantilla, filtro pare key=value (ejemplo LocalAET=DCM4CHEE). Para el filtro de fecha puede utilizar las palabras clave predefinidas ( hoy, ayer, esta_semana, este_mes, ultima_semana, ultimo_mes, este_trimestre, ultimo_trimestre, este_año, ultimo_año) para que se puedan generar los valores dinámicos de los filtros.
+uiFilterTemplate.dcmuiFilterTemplateDefault:Por defecto|Utilizar esta plantilla por defecto.

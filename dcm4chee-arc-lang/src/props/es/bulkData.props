@@ -1,0 +1,5 @@
+bulkData:Descriptor de datos en bloque|Descriptor de datos en bloque
+bulkData.dcmBulkDataDescriptorID:ID del Descriptor de datos en bloque|ID del Descriptor de datos en bloque
+bulkData.dcmBulkDataExcludeDefaults:Excluir valores por defecto|Indica si los atributos especificados por la clase de servicio "Composite Instance Retrieve Without Bulk Data" se tratarán implícitamente como datos masivos (=false) o no (=true).
+bulkData.dcmAttributeSelector:Selector de atributos|Especifica atributos individuales tratados como datos masivos por XPath (por ejemplo, 'DicomAttribute[@tag="54000100"]/Item/DicomAttribute[@tag="54001010"]' ).
+bulkData.dcmBulkDataVRLengthThreshold:Umbral de longitud VR|Especifica tratar todos los Atributos con una Representación de Valor (VR) particular cuya longitud de valor exceda el umbral especificado como Fecha de Bulto. Formato: <VR>=<longitud-umbral>.

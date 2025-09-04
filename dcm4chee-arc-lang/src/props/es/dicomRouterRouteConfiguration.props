@@ -1,0 +1,28 @@
+dicomRouterRouteConfiguration:Configuración de Ruta|Configuración de Ruta.
+dicomRouterRouteConfiguration.dicomRouterRouteConfiguration:Nombre de configuración de ruta (interno)|Nombre de configuración de ruta (interno).
+dicomRouterRouteConfiguration.dicomRouterRouteConfigurationDisplayName:Nombre de configuración de ruta (UI)|Nombre de configuración de ruta (UI).
+dicomRouterRouteConfiguration.dicomRouterRouteConfigurationQueueName:Nombre de la cola|DCM4CHEE Nombre de la cola utilizada para los trabajos.
+dicomRouterRouteConfiguration.dicomRouterRouteConfigurationSourceFindAET:AET de búsqueda de origen|AET a consultar cuando se recuperan datos de entrada (HL7, IAN, etc.) para buscar información de estudio actualizada (sólo se utiliza si el conjunto de datos de entrada contiene StudyInstanceUID).
+dicomRouterRouteConfiguration.dicomRouterRouteConfigurationSourceRetrieveAET:Fuente de recuperación AET|AET para recuperar el estudio de origen (sólo se utiliza si el conjunto de datos de entrada contiene StudyInstanceUID)
+dicomRouterRouteConfiguration.dicomRouterRouteConfigurationSourceURL:Fuente URL|Fuente de escucha URL (por ejemplo, ORM: orm-route1://0.0.0.0:4713?audit=false, ORU: oru-route1://0.0.0.0:4711?audit=false, IAN: dicomDevice:dicom?sopClasses=1.2.840.10008.5.1.4.33,REST: rest:dummy).
+dicomRouterRouteConfiguration.dicomRouterRouteConfigurationRouteType:Tipo de Ruta|Tipo de ruta.
+dicomRouterRouteConfiguration.dicomRouterRouteConfigurationWorkerThreads:Hilos de Trabajador|Número de Hilos de Trabajador que trabajarán en órdenes de enrutamiento en cola
+dicomRouterRouteConfiguration.dicomRouterRouteConfigurationNextVerificationDelay:Retraso en la siguiente verificación|Número de minutos que deben añadirse a la fecha de la siguiente verificación para sincronizar las tareas de enrutamiento.
+dicomRouterRouteConfiguration.dicomRouterRouteConfigurationDestinationAETs:AET de destino|Lista de AET de destino a los que deben enviarse los estudios.
+dicomRouterRouteConfiguration.dicomRouterRouteConfigurationAET2AssigningAuthority:AET - Mapeo de autoridad de asignación|Lista de AET que deben buscarse para los estudios correspondientes en la forma AET=NamespaceID&UniversalID&UniversalIDType (por ejemplo MED1=IHERED&1.3.6.1.4.1.21367.13.20.1000&ISO)
+dicomRouterRouteConfiguration.dicomRouterRouteConfigurationAET2ForwardCronExpression:Expresión AET - Reenvío de Cron|Expresión AET - Reenvío de Cron en forma de AET=Expresión Cron (p. ej. MED4=0 * 10-17 ? * LUN-VIE)
+dicomRouterRouteConfiguration.dicomRouterRouteConfigurationBodyPartMap:Mapeo de partes del cuerpo|Mapeo de partes del cuerpo para hacerlas comparables (p. ej. HEAD=CABEZA, CRÁNEO, CABEZA)
+dicomRouterRouteConfiguration.dicomRouterRouteConfigurationBodyPartScore:Puntuación de parte del cuerpo|Puntuación que debe utilizarse si se ha traducido una parte del cuerpo mediante el mapa de partes del cuerpo configurado - 0 desactivará la coincidencia de partes del cuerpo.
+dicomRouterRouteConfiguration.dicomRouterRouteConfigurationMaxRetrieveTasks:Tareas de recuperación máximas|El número máximo de tareas de recuperación que deben crearse basándose en los conjuntos de datos encontrados ordenados por puntuación - 0 desactivará la función.
+dicomRouterRouteConfiguration.dicomRouterRouteConfigurationMinScore:Puntuación mínima|La puntuación mínima que debe alcanzar un estudio para ser considerado para el Enrutamiento - 0 desactivará la función.
+dicomRouterRouteConfiguration.dicomRouterRouteConfigurationCronExpression:Expresión Cron|Expresión Cron para determinar la próxima hora disponible para procesar la orden de enrutamiento.
+dicomRouterRouteConfiguration.dicomRouterRouteConfigurationPurgingDelayCanceledTasks:Retraso de purga de tareas canceladas|Retraso en formato de duración ISO-8601 PnDTnHnMnS tras el cual se purgan las tareas canceladas. Si no existen, no hay purga para esa ruta en particular.
+dicomRouterRouteConfiguration.dicomRouterRouteConfigurationPurgingDelayCompletedTasks:Retraso de purga Tareas completadas|Retraso en formato de duración ISO-8601 PnDTnHnMnS tras el cual se purgan las tareas completadas. Si no existe, no hay eliminación para esa ruta en particular.
+dicomRouterRouteConfiguration.dicomRouterRouteConfigurationPurgingDelayFailedTasks:Retraso de purga de tareas fallidas|Retraso en formato de duración ISO-8601 PnDTnHnMnS tras el cual se purgan las tareas fallidas. Si no existe, no hay eliminación para esa ruta en particular.
+dicomRouterRouteConfiguration.dicomRouterRouteConfigurationPurgingDelayWarningTasks:Retraso de purga Tareas de advertencia|Retraso en formato de duración ISO-8601 PnDTnHnMnS tras el cual se purgan las tareas de advertencia. Si no existe, no se borrará la ruta en cuestión.
+dicomRouterRouteConfiguration.dicomRouterRouteConfigurationHL7ConfigurationReceivingApplication:Aplicación de recepción de configuración HL7|Aplicación de recepción de configuración HL7
+dicomRouterRouteConfiguration.dicomRouterRouteConfigurationHL7ConfigurationReceivingFacility:Aplicación de recepción de configuración HL7|HL7 Configuración de la aplicación de recepción
+dicomRouterRouteConfiguration.dicomRouterRouteConfigurationHL7ConfigurationSendingApplication:Aplicación de envío de configuración HL7|Aplicación de envío de configuración HL7.
+dicomRouterRouteConfiguration.dicomRouterRouteConfigurationHL7ConfigurationSendingFacility:Configuración HL7 Instalación de envío|Configuración HL7 Instalación de envío.
+dicomRouterRouteConfiguration.dicomRouterRouteConfigurationHL7ConfigurationURIPrefix:Prefijo URI de configuración HL7|Prefijo URI para configurar el receptor HL7 (por ejemplo, orm-route1).
+dicomRouterRouteConfiguration.dicomRouterRouteConfigurationPixConfiguration:Configuraciones PIX|Configuraciones PIX.

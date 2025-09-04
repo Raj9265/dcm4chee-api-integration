@@ -1,0 +1,14 @@
+auditSuppressCriteria:Criteri di soppressione dell'audit|Criteri di soppressione dell'audit
+auditSuppressCriteria.cn:Nome|Nome arbitrario/significativo dei criteri di soppressione dell'audit
+auditSuppressCriteria.dcmAuditEventID:ID evento di audit|Codice ID evento di controllo RFC 3881 e codeSystemName in formato (CV, CSD, "CM")
+auditSuppressCriteria.dcmAuditEventTypeCode:Codice del tipo di evento di controllo|Codice del tipo di evento di controllo RFC 3881 in formato (CV, CSD, "CM")
+auditSuppressCriteria.dcmAuditEventActionCode:Codice di Azione dell'evento|Codice tipo di azione evento di controllo RFC 3881.
+auditSuppressCriteria.dcmAuditEventOutcomeIndicator:Indicatore del risultato dell'evento|Codice tipo di azione evento di controllo RFC 3881.
+auditSuppressCriteria.dcmAuditUserID:ID Utente|ID utente di controllo del partecipante attivo RFC 3881
+auditSuppressCriteria.dcmAuditAlternativeUserID:ID utente alternativo|RFC 3881  ID utente alternativo partecipante attivo di controllo
+auditSuppressCriteria.dcmAuditUserRoleIDCode:Codice ID ruolo utente|RFC 3881 ID utente di controllo del partecipante attivo RFC 3881 in formato (CV, CSD, "CM")
+auditSuppressCriteria.dcmAuditNetworkAccessPointID:ID punto di accesso alla rete|RFC 3881 Audit Active Participant Network Access Point ID
+auditSuppressCriteria.dcmAuditUserIsRequestor:L'utente è richiedente|Indica se il partecipante attivo è l'iniziatore/richiedente dell'evento di controllo come specificato da RFC 3881
+auditSuppressCriteria.dcmParticipantObjectTypeCode:Participant Object Type Code|DICOM PS 3.15 A.5 Participant Object Type Code.
+auditSuppressCriteria.dcmParticipantObjectTypeCodeRole:Participant Object Type Code Role|DICOM PS 3.15 A.5 Participant Object Type Code Role.
+auditSuppressCriteria.dcmParticipantObjectDataLifeCycle:Participant Object Data Life Cycle|DICOM PS 3.15 A.5 Participant Object Data Life Cycle.

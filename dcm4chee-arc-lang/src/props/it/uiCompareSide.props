@@ -1,0 +1,8 @@
+uiCompareSide:Confronta Lato|Confronta Lato
+uiCompareSide.dcmuiCompareSideName:Nome|Nome del lato di Confronto
+uiCompareSide.dcmuiCompareSideDescription:Descrizione|Una breve descrizione di questo Gruppo
+uiCompareSide.dcmuiCompareSideOrder:Order|Order of the Compare side
+uiCompareSide.dcmuiCompareSideCluster:Cluster|Seleziona un cluster
+uiCompareSide.dcmuiCompareSideElasticsearch:Elasticsearch|Seleziona un URL di Elasticsearch
+uiCompareSide.dcmuiCompareSideQueueName:Coda|Seleziona il QueueName da utilizzare per il confronto
+uiCompareSide.dcmuiCompareSideInstalled:Installato|Se true, questo lato di confronto è attivo nel dashboard

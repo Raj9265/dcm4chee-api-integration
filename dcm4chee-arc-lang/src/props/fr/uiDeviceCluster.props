@@ -1,0 +1,6 @@
+uiDeviceCluster:Configuración del Grupo de IU|Configuración de la URL del dispositivo que se utilizará junto a la URL principal de la IU.
+uiDeviceCluster.dcmuiDeviceClusterName:Nombre|Nombre del Grupo.
+uiDeviceCluster.dcmuiDeviceClusterDescription:Descripción|Descripción del Grupo.
+uiDeviceCluster.dcmuiDeviceClusterDevices:Aplicación de Red para Dispositivos|Seleccione las Aplicaciones de Red configuradas que se utilizarán para acceder a los dispositivos correspondientes.
+uiDeviceCluster.dcmuiClusterWebApp:Aplicación de Red|Aplicación de Red con la clase QIDO-RS.
+uiDeviceCluster.dcmuiDeviceClusterInstalled:Instalada|Utilizar esta URL en la UI.

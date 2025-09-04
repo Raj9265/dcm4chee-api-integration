@@ -1,0 +1,7 @@
+uiWebApp:Listado desplegable de la aplicación web|Lista desplegable de la aplicación web.
+uiWebApp.dcmuiWebAppListName:Nombre de la lista|Defina un nombre para esta configuración.
+uiWebApp.dcmuiWebAppListDescription:Descripción|Descripción de la lista de la aplicación web.
+uiWebApp.dcmuiMode:Modo de lista|Tiene dos posibilidades para mostrar la lista definida: 1.) En la parte superior en el resto de la lista 'separados' con una línea, 2.) Mostrar sólo los que hir definido ('exclusivo').
+uiWebApp.dcmuiWebApps:Aplicaciones Web|Aplicación Web
+uiWebApp.dcmAcceptedUserRole:Rol de Usuario Aceptado|Defina los roles para los cuales esta configuración debe estar disponible, use 'user' para estar disponible para todos los roles (Debe definir un nombre de usuario (siguiente atributo) o rol de usuario (este atributo ))
+uiWebApp.dcmAcceptedUserName:Nombre de Usuario Aceptado|Defina el nombre de usuario para el que esta configuración debe estar disponible (Debe definir un nombre de usuario (este atributo) o un rol de usuario (atributo anterior))

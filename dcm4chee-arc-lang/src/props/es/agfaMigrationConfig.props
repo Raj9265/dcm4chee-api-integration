@@ -1,0 +1,9 @@
+agfaMigrationConfig:Nombre de la configuración de migración AGFA|Nombre de la configuración de migración AGFA
+agfaMigrationConfig.agfaMigrationDcm4cheeURL:DCM4CHEE Import-RS URL|URL del punto final REST para la importación de RS
+agfaMigrationConfig.agfaMigrationExtractionPath:Ruta de extracción|Ruta para extraer los archivos Blob: debe coincidir con la configuración del sistema de archivos del descriptor del sistema de archivos utilizado en la URL de DCM4CHEE.
+agfaMigrationConfig.agfaMigrationMigrationPath:Ruta de migración|Ruta donde se encuentran los archivos Blob
+agfaMigrationConfig.agfaMigrationPathPattern:Patrón de ruta|Patrón de ruta para extraer archivos Blob (p.e. 2021/01/23/{00100020,hash}/{0020000D,hash}/{0020000E,hash}/{00080018,hash})
+agfaMigrationConfig.agfaMigrationQueueName:Nombre de cola JMS|Nombre de cola JMS donde se almacenan las órdenes de migración
+agfaMigrationConfig.agfaMigrationKeycloakClientID:ID de cliente Keycloak|ID de cliente Keycloak
+agfaMigrationConfig.agfaMigrationDeleteOnImport:Eliminar al importar|Eliminar al importar
+agfaMigrationConfig.agfaMigrationContinueOnStartup:Continuar al arrancar|Iniciar automáticamente el siguiente lote programado al arrancar
